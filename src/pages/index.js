@@ -131,7 +131,7 @@ const Home = () => {
         </List>
         <Divider />
         <List>
-          {['General Aptitude', 'Verbal', 'Reasoning', 'Current Affairs & GK', 'Interview', 'Engineering'].map(
+          {['General Aptitude', 'Verbal', 'Reasoning', 'Current Affairs', 'Interview', 'Engineering'].map(
             (text, index) => (
               <ListItem key={text} disablePadding>
                 <ListItemButton>
