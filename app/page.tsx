@@ -57,9 +57,9 @@ export default function Home() {
         </div>
       </div>
     </nav>
-    <nav className="bg-gray-50 dark:bg-gray-700">
-    <div className="max-w-screen-xl px-4 py-3 mx-auto">
-        <div className="flex items-center">
+    <nav className="bg-gray-50 dark:bg-gray-700 sticky top-0">
+    <div className="max-w-screen-xl px-4  py-3 mx-auto">
+        <div className="flex items-center ">
             <ul className="flex flex-row font-medium mt-0 space-x-8 rtl:space-x-reverse text-sm">
                 <li>
                     <a href="#" className="text-gray-900 dark:text-white hover:underline" aria-current="page">HTML</a>
@@ -85,7 +85,6 @@ export default function Home() {
                 <li>
                     <a href="#" className="text-gray-900 dark:text-white hover:underline">C</a>
                 </li>
-               
                 <li>
                     <a href="#" className="text-gray-900 dark:text-white hover:underline">C++</a>
                 </li>
@@ -117,7 +116,193 @@ export default function Home() {
         </div>
     </div>
 </nav>
+{/* 10 card for tutorial list  */}
+<div className="flex">
+<div className="max-w-sm rounded overflow-hidden shadow-lg m-10">
+  <Image className="w-full" src="https://static.wikia.nocookie.net/coding-help/images/0/02/174854.png/" width={100} height={100} alt="Sunset in the mountains"/>
+  <div className="px-6 py-4">
+    <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+    <p className="text-gray-700 text-base">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+    </p>
+  </div>
+  <div className="px-6 pt-4 pb-2">
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+  </div>
+</div>
+
+
+<div className="max-w-sm rounded overflow-hidden shadow-lg m-10">
+  <Image className="w-full" src="https://static.wikia.nocookie.net/coding-help/images/0/02/174854.png/" width={100} height={100} alt="Sunset in the mountains"/>
+  <div className="px-6 py-4">
+    <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+    <p className="text-gray-700 text-base">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+    </p>
+  </div>
+  <div className="px-6 pt-4 pb-2">
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+  </div>
+</div>
+<div className="max-w-sm rounded overflow-hidden shadow-lg m-10">
+  <Image className="w-full" src="https://static.wikia.nocookie.net/coding-help/images/0/02/174854.png/" width={100} height={100} alt="Sunset in the mountains"/>
+  <div className="px-6 py-4">
+    <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+    <p className="text-gray-700 text-base">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+    </p>
+  </div>
+  <div className="px-6 pt-4 pb-2">
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+  </div>
+</div>
+<div className="max-w-sm rounded overflow-hidden shadow-lg m-10">
+  <Image className="w-full" src="https://static.wikia.nocookie.net/coding-help/images/0/02/174854.png/" width={100} height={100} alt="Sunset in the mountains"/>
+  <div className="px-6 py-4">
+    <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+    <p className="text-gray-700 text-base">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+    </p>
+  </div>
+  <div className="px-6 pt-4 pb-2">
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+  </div>
+</div>
+
+</div>
+<div className="flex">
+<div className="max-w-sm rounded overflow-hidden shadow-lg m-10">
+  <Image className="w-full" src="https://static.wikia.nocookie.net/coding-help/images/0/02/174854.png/" width={100} height={100} alt="Sunset in the mountains"/>
+  <div className="px-6 py-4">
+    <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+    <p className="text-gray-700 text-base">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+    </p>
+  </div>
+  <div className="px-6 pt-4 pb-2">
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+  </div>
+</div>
+
+
+<div className="max-w-sm rounded overflow-hidden shadow-lg m-10">
+  <Image className="w-full" src="https://static.wikia.nocookie.net/coding-help/images/0/02/174854.png/" width={100} height={100} alt="Sunset in the mountains"/>
+  <div className="px-6 py-4">
+    <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+    <p className="text-gray-700 text-base">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+    </p>
+  </div>
+  <div className="px-6 pt-4 pb-2">
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+  </div>
+</div>
+<div className="max-w-sm rounded overflow-hidden shadow-lg m-10">
+  <Image className="w-full" src="https://static.wikia.nocookie.net/coding-help/images/0/02/174854.png/" width={100} height={100} alt="Sunset in the mountains"/>
+  <div className="px-6 py-4">
+    <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+    <p className="text-gray-700 text-base">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+    </p>
+  </div>
+  <div className="px-6 pt-4 pb-2">
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+  </div>
+</div>
+<div className="max-w-sm rounded overflow-hidden shadow-lg m-10">
+  <Image className="w-full" src="https://static.wikia.nocookie.net/coding-help/images/0/02/174854.png/" width={100} height={100} alt="Sunset in the mountains"/>
+  <div className="px-6 py-4">
+    <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+    <p className="text-gray-700 text-base">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+    </p>
+  </div>
+  <div className="px-6 pt-4 pb-2">
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+  </div>
+</div>
+
+</div>
+<div className="flex">
+<div className="max-w-sm rounded overflow-hidden shadow-lg m-10">
+  <Image className="w-full" src="https://static.wikia.nocookie.net/coding-help/images/0/02/174854.png/" width={100} height={100} alt="Sunset in the mountains"/>
+  <div className="px-6 py-4">
+    <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+    <p className="text-gray-700 text-base">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+    </p>
+  </div>
+  <div className="px-6 pt-4 pb-2">
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+  </div>
+</div>
+
+
+<div className="max-w-sm rounded overflow-hidden shadow-lg m-10">
+  <Image className="w-full" src="https://static.wikia.nocookie.net/coding-help/images/0/02/174854.png/" width={100} height={100} alt="Sunset in the mountains"/>
+  <div className="px-6 py-4">
+    <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+    <p className="text-gray-700 text-base">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+    </p>
+  </div>
+  <div className="px-6 pt-4 pb-2">
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+  </div>
+</div>
+<div className="max-w-sm rounded overflow-hidden shadow-lg m-10">
+  <Image className="w-full" src="https://static.wikia.nocookie.net/coding-help/images/0/02/174854.png/" width={100} height={100} alt="Sunset in the mountains"/>
+  <div className="px-6 py-4">
+    <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+    <p className="text-gray-700 text-base">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+    </p>
+  </div>
+  <div className="px-6 pt-4 pb-2">
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+  </div>
+</div>
+<div className="max-w-sm rounded overflow-hidden shadow-lg m-10">
+  <Image className="w-full" src="https://static.wikia.nocookie.net/coding-help/images/0/02/174854.png/" width={100} height={100} alt="Sunset in the mountains"/>
+  <div className="px-6 py-4">
+    <div className="font-bold text-xl mb-2">The Coldest Sunset</div>
+    <p className="text-gray-700 text-base">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+    </p>
+  </div>
+  <div className="px-6 pt-4 pb-2">
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+    <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+  </div>
+</div>
+
+</div>
+
     </div>
+    
     
   );
 }
