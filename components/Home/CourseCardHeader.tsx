@@ -129,7 +129,7 @@ const CourseCard: React.FC<CourseData> = ({ title, description, learnLink, video
                   <code className="text-black">{codeExample}</code>
                 </pre>
               </div>
-              <button className="mt-4 bg-[#04AA6D] text-white py-2 px-4 rounded-full text-lg font-semibold hover:bg-[#059862] transition-colors">
+              <button className="mt-4 bg-blue-500 text-white py-2 px-4 rounded-full text-lg font-semibold hover:bg-blue-600 transition-colors">
                 Try it Yourself
               </button>
             </div>
