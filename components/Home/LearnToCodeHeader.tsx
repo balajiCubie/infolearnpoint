@@ -28,7 +28,7 @@ const LearnToCodeHeader: React.FC = () => {
     <div className="bg-[#282A35] text-white py-24 relative overflow-hidden">
       <div className="container mx-auto px-4 text-center relative z-10">
         <h1 className="text-6xl md:text-7xl font-bold mb-6">Learn to Code</h1>
-        <p className="text-2xl md:text-3xl mb-10 text-[#FFF4A3]">With the world's largest web developer site.</p>
+        <p className="text-2xl md:text-3xl mb-10 text-[#FFF4A3]">With the world&apos;s largest web developer site.</p>
         <div className="max-w-4xl mx-auto mb-10">
           <div className="flex">
             <input
