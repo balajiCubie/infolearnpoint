@@ -1,6 +1,5 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Prism as SyntaxHighlighter } from 'react-syntax-highlighter';
-import { vscDarkPlus } from 'react-syntax-highlighter/dist/esm/styles/prism';
+import Image from 'next/image';
 
 const CodeEditor: React.FC = () => {
   const [htmlCode, setHtmlCode] = useState(`
@@ -277,6 +276,9 @@ document.getElementById('addElementButton').addEventListener('click', addElement
           </button>
         </div>
       </div>
+      <div className="flex justify-end mr-[100px] mt-[-100px]">
+    <Image src="/astronaut.png" alt="InfoLearnPoint Mascot" width={200} height={100}  />
+  </div>
     </div>
   );
 };

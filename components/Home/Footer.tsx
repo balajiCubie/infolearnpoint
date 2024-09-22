@@ -4,10 +4,15 @@ import Image from 'next/image';
 
 const Footer: React.FC = () => {
   return (
+    <>
+
     <footer className="bg-[#282A35] text-white py-12">
+    
       <div className="container mx-auto px-4">
+
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
+
             <h3 className="text-xl font-bold mb-4">Top Tutorials</h3>
             <ul className="space-y-2">
               <li><Link href="/html">HTML Tutorial</Link></li>
@@ -55,6 +60,7 @@ const Footer: React.FC = () => {
               <li><Link href="/jquery/examples">jQuery Examples</Link></li>
             </ul>
           </div>
+
           <div>
             <h3 className="text-xl font-bold mb-4">Get Certified</h3>
             <ul className="space-y-2">
@@ -119,10 +125,10 @@ const Footer: React.FC = () => {
           Copyright 1999-2024 by InfoLearnPoint. All Rights Reserved. InfoLearnPoint is Powered by InfoLearnPoint.CSS.
         </p>
       </div>
-      <div className="absolute bottom-0 right-0 mb-4 mr-4">
-        <Image src="/astronaut.png" alt="InfoLearnPoint Mascot" width={100} height={100} />
-      </div>
+      {/* display image right top on footer */}
+
     </footer>
+    </>
   );
 };
 
