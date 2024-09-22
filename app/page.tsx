@@ -1,14 +1,15 @@
 import React from 'react';
-import Navbar from "../components/Home/NavBar";
-import SubHeader from "../components/Home/SubHeader";
+import NavbarWithSubHeader from '../components/Home/NavbarWithSubHeader';
 import LearnToCodeHeader from '../components/Home/LearnToCodeHeader';
+import Footer from '@/components/Home/Footer';
 
 export default function Home() {
   return (
     <>
-    <Navbar />
-    <SubHeader />
+    <NavbarWithSubHeader />
+
       <LearnToCodeHeader />
+      <Footer/>
       </>
   );
 }

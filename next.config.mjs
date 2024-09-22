@@ -6,7 +6,7 @@ const nextConfig = {
       "static.wikia.nocookie.net",
       "tailwindui.com",
       "images.pexels.com",
-      "svgrepo.com/]",
+      "svgrepo.com",
     ],
   },
 };

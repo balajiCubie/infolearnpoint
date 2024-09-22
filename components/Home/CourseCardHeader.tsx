@@ -1,5 +1,6 @@
 "use client"
 import React from 'react';
+import LanguageComponents from './LanguageCard';
 import Link from 'next/link';
 
 interface CourseData {
@@ -98,6 +99,7 @@ WHERE Country='Mexico';`,
 
 const CourseCard: React.FC<CourseData> = ({ title, description, learnLink, videoLink, referenceLink, certificationLink, codeExample, backgroundColor }) => {
   return (
+    <>
     <div style={{ backgroundColor }} className="h-[600px]">
       <div className="container mx-auto px-4 py-12 h-full">
         <div className="flex flex-col md:flex-row items-center justify-between h-full">
@@ -135,6 +137,8 @@ const CourseCard: React.FC<CourseData> = ({ title, description, learnLink, video
         </div>
       </div>
     </div>
+
+      </>
   );
 };
 
@@ -143,7 +147,10 @@ const CourseCardHeader: React.FC = () => {
     <>
       {courses.map((course, index) => (
         <CourseCard key={index} {...course} />
+
       ))}
+      <LanguageComponents.LanguageCards />
+
     </>
   );
 };

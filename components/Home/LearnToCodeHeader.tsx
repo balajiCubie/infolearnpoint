@@ -2,6 +2,7 @@
 import React, { useEffect, useRef } from 'react';
 import Image from 'next/image';
 import CourseCardHeader from './CourseCardHeader';
+import CodeEditor from './CodeEditor';
 
 const LearnToCodeHeader: React.FC = () => {
   const starsRef = useRef<HTMLDivElement>(null);
@@ -36,7 +37,7 @@ const LearnToCodeHeader: React.FC = () => {
               placeholder="Search our tutorials, e.g. HTML"
               className="w-full px-6 py-4 rounded-l-full text-black text-lg"
             />
-            <button className="bg-[#04AA6D] text-white px-8 py-4 rounded-r-full hover:bg-[#059862] transition-colors">
+            <button className="bg-blue-500 text-white px-8 py-4 rounded-r-full hover:bg-blue-600 transition-colors">
               <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
               </svg>
@@ -67,6 +68,7 @@ const LearnToCodeHeader: React.FC = () => {
         </svg>
       </div>
      <CourseCardHeader/>
+     <CodeEditor/>
 
       <style jsx>{`
         @keyframes twinkle {
